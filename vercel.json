@@ -1,0 +1,37 @@
+{
+  "name": "enhanced-file-upload-api",
+  "version": "2.0.0",
+  "description": "Enhanced file upload and streaming API with Telegram integration",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "file-upload",
+    "telegram",
+    "streaming",
+    "api",
+    "video-player"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "fs-extra": "^11.1.1",
+    "axios": "^1.6.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
